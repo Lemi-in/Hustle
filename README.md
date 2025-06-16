@@ -1,91 +1,36 @@
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-# 🔎 Hustle – Modern Job Search Platform
+## Getting Started
 
-Hustle is a full-stack job search platform built with **Next.js**, **TailwindCSS**, and **BetterAuth**. It connects **job seekers** and **companies**, enabling seamless job discovery, application, and talent matching.
-
-## 🚀 Features
-
-### 👤 For Job Seekers
-- Register and log in securely
-- Filter jobs by type (Full-time, Part-time, Remote, Hybrid, On-site)
-- Search using tags (e.g., React, Design, Entry-Level)
-- Sort jobs by recency: latest, last 24 hours, past week
-- View detailed job descriptions
-- Apply to jobs directly
-- Save/bookmark jobs for later
-
-### 🏢 For Companies
-- Company registration and authentication
-- Post new job listings with tags, descriptions, and type
-- Edit or remove job posts
-- Search for candidates using filters and tags
-- Access a dashboard with analytics (views, bookmarks, applications)
-
-### 🌐 Common Features
-- Role-based authentication using BetterAuth
-- Responsive design using TailwindCSS
-- Realtime timestamps (e.g., "Posted 3 hours ago")
-- User and company dashboards
-- Account and profile management
-
-## 🧱 Tech Stack
-
-- **Frontend**: Next.js 14, TailwindCSS
-- **Authentication**: BetterAuth
-- **Backend/API**: Next.js API Routes 
-- **Database**: Firebase/Firestore
-- **Deployment**: Vercel
-
-## 🛠️ Getting Started
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/jobmatch.git
-cd jobmatch
-````
-
-### 2. Install dependencies
-
-```bash
-npm install
-```
-
-### 3. Set up environment variables
-
-Create a `.env.local` file and add:
-
-```env
-DATABASE_URL=your_database_url
-NEXT_PUBLIC_BETTERAUTH_CLIENT_ID=your_client_id
-NEXT_PUBLIC_BETTERAUTH_SECRET=your_secret
-```
-
-### 4. Run the development server
+First, run the development server:
 
 ```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 📦 Deployment
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Easily deploy with [Vercel](https://vercel.com), the platform built for Next.js.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## 📌 Roadmap (optional)
+## Learn More
 
-* [ ] Resume upload and parsing
-* [ ] Admin panel
-* [ ] Email notifications
-* [ ] Dark mode support
-* [ ] Tag recommendation system
+To learn more about Next.js, take a look at the following resources:
 
-## 🧑‍💻 Author
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-**Lemesa Elias**
-Passionate full-stack developer and problem solver.
-[GitHub](https://github.com/lemesa) • [LinkedIn](https://linkedin.com/in/lemesaelias)
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## 📝 License
+## Deploy on Vercel
 
-MIT License
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
